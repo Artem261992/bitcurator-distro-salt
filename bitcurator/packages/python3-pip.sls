@@ -3,6 +3,6 @@ include:
 
 python3-pip:
   pkg.installed:
-    - reload_modules: true
+    - reload_modules: True
     - require:
       - pkg: python3
