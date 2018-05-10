@@ -1,6 +1,8 @@
 include:
   - .python
 
-python-pip:
-  pkg.installed:
-    - reload_modules: true
+cmd.run:
+  - name: |
+      easy_install --script-dir=/usr/bin -U pip
+  - cwd: /
+  - reload_modules: true
