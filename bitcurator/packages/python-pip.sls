@@ -6,4 +6,4 @@ python-pip:
     - name: |
         easy_install --script-dir=/usr/bin -U pip
     - cwd: /
-    - reload_modules: true
+  - reload_modules: true
