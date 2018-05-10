@@ -1,5 +1,5 @@
 include:
-  - ..packages.python-pip
+  - ..packages.python3-pip
 
 jdcal:
   pip.installed:
@@ -7,4 +7,4 @@ jdcal:
     - bin_env: '/usr/bin/pip3'
     - upgrade: True
     - require:
-      - cmd: python-pip
+      - cmd: python3-pip

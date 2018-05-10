@@ -1,2 +1,4 @@
 python:
-  pkg.installed
+  pkg.installed:
+    - reload_modules: true
+
