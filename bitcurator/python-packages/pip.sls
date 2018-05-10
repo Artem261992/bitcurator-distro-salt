@@ -6,4 +6,4 @@ pip:
     - name: pip
     - upgrade: True
     - require:
-      - pkg: python-pip
+      - cmd: python-pip
