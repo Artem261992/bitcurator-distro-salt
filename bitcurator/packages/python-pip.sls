@@ -2,6 +2,7 @@ include:
   - .python
 
 python-pip:
-  pkg.installde:
+  pkg.installed:
     - reload_modules: true
-    - require: python
+    - require:
+      - pkg: python
