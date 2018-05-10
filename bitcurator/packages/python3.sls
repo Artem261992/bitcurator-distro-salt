@@ -1,3 +1,3 @@
 python3:
   pkg.installed:
-    - reload_modules: true
+    - reload_modules: True
