@@ -3,7 +3,8 @@ include:
 
 pip3:
   pip.installed:
-    - name: pip == 9.0.3
+    - name: pip
+    - upgrade: True
     - reload_modules: True
     - require:
       - pkg: python3-pip
