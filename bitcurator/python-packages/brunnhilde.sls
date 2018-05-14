@@ -1,5 +1,5 @@
 include:
-  - ..packages.python3-pip
+  - .pip3
 
 brunnhilde:
   pip.installed:
@@ -7,4 +7,4 @@ brunnhilde:
     - bin_env: '/usr/bin/pip3'
     - upgrade: True
     - require:
-      - pkg: python3-pip
+      - pip: pip3
