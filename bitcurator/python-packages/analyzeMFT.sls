@@ -1,5 +1,5 @@
 include:
-  - .pip3
+  - ..packages.python3-pip
 
 analyzeMFT:
   pip.installed:
@@ -7,4 +7,4 @@ analyzeMFT:
     - bin_env: '/usr/bin/pip3'
     - upgrade: True
     - require:
-      - pip: pip3
+      - cmd: python3-pip

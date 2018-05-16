@@ -1,8 +1,10 @@
 include:
   - .python3
 
-python3-pip:
-  pkg.installed:
-    - reload_modules: True
-    - require:
-      - pkg: python3
+cmd.run:
+  - name: |
+      easy_install --script-dir=/usr/bin -U pip
+  - cwd: /
+  - reload_modules: True
+  - require:
+    - pkg: python3

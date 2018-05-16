@@ -1,6 +1,5 @@
 include:
   - bitcurator.python-packages.pip
-  - bitcurator.python-packages.pip3
   - bitcurator.python-packages.analyzeMFT
   - bitcurator.python-packages.argparse
   - bitcurator.python-packages.brunnhilde
@@ -26,7 +25,6 @@ bitcurator-python-packages:
     - name: bitcurator-python-packages
     - require:
       - sls: bitcurator.python-packages.pip
-      - sls: bitcurator.python-packages.pip3
       - sls: bitcurator.python-packages.analyzeMFT
       - sls: bitcurator.python-packages.argparse
       - sls: bitcurator.python-packages.brunnhilde

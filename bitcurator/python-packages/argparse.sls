@@ -1,5 +1,5 @@
 include:
-  - .pip3
+  - ..packages.python3-pip
 
 argparse:
   pip.installed:
@@ -7,4 +7,4 @@ argparse:
     - bin_env: '/usr/bin/pip3'
     - upgrade: True
     - require:
-      - pip: pip3
+      - cmd: python3-pip

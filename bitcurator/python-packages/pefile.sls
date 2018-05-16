@@ -7,4 +7,4 @@ pefile:
     - bin_env: '/usr/bin/pip3'
     - upgrade: True
     - require:
-      - pkg: python3-pip
+      - cmd: python3-pip
