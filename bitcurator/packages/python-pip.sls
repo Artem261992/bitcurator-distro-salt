@@ -1,10 +1,6 @@
 include:
   - .python
 
-cmd.run:
-  - name: |
-      easy_install --script-dir=/usr/bin -U pip
-  - cwd: /
+python-pip:
+  pkg.installed:
   - reload_modules: True
-  - require:
-    - pkg: python
