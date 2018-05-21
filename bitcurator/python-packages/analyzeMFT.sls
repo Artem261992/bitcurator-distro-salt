@@ -1,5 +1,6 @@
 include:
   - .pip3
+  - .pip
 
 analyzeMFT:
   pip.installed:
@@ -8,3 +9,4 @@ analyzeMFT:
     - upgrade: True
     - require:
       - cmd: pip3
+      - cmd: pip
