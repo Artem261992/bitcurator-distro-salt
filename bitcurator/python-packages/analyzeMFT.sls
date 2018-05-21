@@ -9,4 +9,4 @@ analyzeMFT:
     - upgrade: True
     - require:
       - cmd: pip3
-      - cmd: pip
+      - pip: pip
