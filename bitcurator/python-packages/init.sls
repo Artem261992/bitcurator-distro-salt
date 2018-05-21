@@ -1,4 +1,5 @@
 include:
+  - bitcurator.python-packages.pip3
   - bitcurator.python-packages.pip
   - bitcurator.python-packages.analyzeMFT
   - bitcurator.python-packages.argparse
@@ -24,6 +25,7 @@ bitcurator-python-packages:
   test.nop:
     - name: bitcurator-python-packages
     - require:
+      - sls: bitcurator.python-packages.pip3
       - sls: bitcurator.python-packages.pip
       - sls: bitcurator.python-packages.analyzeMFT
       - sls: bitcurator.python-packages.argparse

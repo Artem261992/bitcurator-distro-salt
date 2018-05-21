@@ -1,5 +1,5 @@
 include:
-  - ..packages.python3-pip
+  - .pip3
 
 configobj:
   pip.installed:
@@ -7,4 +7,4 @@ configobj:
     - bin_env: '/usr/bin/pip3'
     - upgrade: True
     - require:
-      - cmd: python3-pip
+      - cmd: pip3

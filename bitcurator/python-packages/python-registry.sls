@@ -1,5 +1,5 @@
 include:
-  - ..packages.python3-pip
+  - .pip3
 
 python-registry:
   pip.installed:
@@ -7,4 +7,4 @@ python-registry:
     - bin_env: '/usr/bin/pip3'
     - upgrade: True
     - require:
-      - cmd: python3-pip
+      - cmd: pip3
