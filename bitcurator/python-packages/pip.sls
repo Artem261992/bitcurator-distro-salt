@@ -2,10 +2,8 @@ include:
   - ..packages.python-pip
 
 pip:
-  cmd.run:
-    - name: |
-        pip install --upgrade --force 'pip<10.0.0'
-    - cwd: /
-    - reload_modules: True
+  pip.installed:
+    - name: pip
+    - upgrade: True
     - require:
-      - pkg: python-pip
+      - cmd: python-pip

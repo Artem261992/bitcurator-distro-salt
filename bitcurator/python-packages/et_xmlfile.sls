@@ -1,5 +1,6 @@
 include:
-  - .pip3
+  - ..packages.python-pip
+  - ..packages.python3-pip
 
 et_xmlfile:
   pip.installed:
@@ -7,4 +8,5 @@ et_xmlfile:
     - bin_env: '/usr/bin/pip3'
     - upgrade: True
     - require:
-      - cmd: pip3
+      - cmd: python-pip
+      - pkg: python3-pip

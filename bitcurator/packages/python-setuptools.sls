@@ -1,6 +1,3 @@
-include:
-  - .python3
-
-python3-pip:
+python-setuptools:
   pkg.installed:
     - reload_modules: True
