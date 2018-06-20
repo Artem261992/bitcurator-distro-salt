@@ -6,7 +6,6 @@ include:
   - bitcurator.packages.python-sphinx
   - bitcurator.packages.python-tk
   - bitcurator.packages.python-vte
-  - bitcurator.packages.python-setuptools
   - bitcurator.packages.python2-dot-7-dev
   - bitcurator.packages.python3
   - bitcurator.packages.python3-dev
@@ -29,7 +28,6 @@ bitcurator-packages:
       - sls: bitcurator.packages.python-sphinx
       - sls: bitcurator.packages.python-tk
       - sls: bitcurator.packages.python-vte
-      - sls: bitcurator.packages.python-setuptools
       - sls: bitcurator.packages.python2-dot-7-dev
       - sls: bitcurator.packages.python3
       - sls: bitcurator.packages.python3-dev
