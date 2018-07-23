@@ -6,6 +6,7 @@ python-dateutil:
   pip.installed:
     - name: python-dateutil
     - upgrade: True
+    - no_use_wheel: True
     - require:
       - pkg: python-pip
       - pkg: python3-pip

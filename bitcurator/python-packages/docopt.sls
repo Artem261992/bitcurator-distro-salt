@@ -6,6 +6,7 @@ docopt:
   pip.installed:
     - name: docopt
     - upgrade: True
+    - no_use_wheel: True
     - require:
       - pkg: python-pip
       - pkg: python3-pip
